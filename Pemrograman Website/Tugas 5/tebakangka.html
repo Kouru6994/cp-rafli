@@ -1,0 +1,33 @@
+<script>
+    // Generate random number between 1 and 100
+    const targetNumber = Math.floor(Math.random() * 100) + 1;
+    // Function to check the player's guess
+    function checkGuess(guess) {
+        if (guess < targetNumber) {
+            return "Terlalu kecil!";
+        } else if (guess > targetNumber) {
+            return "Terlalu besar!";
+        } else {
+            return "Tepat! Kamu menang!";
+        }
+    }
+    // Main game loop
+    while (true) {
+        const playerGuess = parseInt(prompt("Tebak angka antara 1 dan 100: "));
+
+        // Check if the input is valid
+        if (isNaN(playerGuess)) {
+            alert("Masukkan angka yang valid.");
+            continue;
+        }
+
+        // Check the player's guess and give feedback
+        const guessFeedback = checkGuess(playerGuess);
+        alert(guessFeedback);
+        
+        // End the game if the player guessed correctly
+        if (guessFeedback === "Tepat! Kamu menang!") {
+            break;
+        }
+    }
+</script>

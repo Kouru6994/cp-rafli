@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./../style/output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body class="bg-[#44c3e5] font-['Poppins'] flex justify-center items-center py-10">
+    <div class="bg-white w-[300px] rounded-lg">
+        <form class="flex flex-col p-6" action="./latihantable2.html">
+            <h3 class="text-[#44c3e5] font-bold mb-4 text-center text-xl">Form Pendaftaran Eskul</h3>
+        
+            <label class="font-semibold" for="nis">NIS : </label>
+            <input class="border-2 p-1 mb-2" type="text" name="nis" placeholder="NIS"> 
+        
+            <label class="font-semibold" for="nama">Nama : </label>
+            <input class="border-2 p-1 mb-2" type="text" name="nama" placeholder="Nama"> 
+        
+            <label class="font-semibold" for="kelas">Kelas : </label>
+            <select class="border-2 p-1 mb-2" name="kelas" id="kelas">
+                <option value="X">X</option>
+                <option value="XI">XI</option>
+                <option value="XII">XII</option>
+            </select> 
+        
+            <label class="font-semibold" for="jurusan">Jurusan : </label>
+            <select class="border-2 p-1 mb-2" name="jurusan" id="jurusan">
+                <option value="RPL">RPL</option>
+                <option value="TKJ">TKJ</option>
+                <option value="DKV">DKV</option>
+                <option value="TELCO">TELCO</option>
+            </select> 
+        
+            <label class="font-semibold" for="jenis_kelamin">Jenis Kelamin : </label>
+            <div class="mb-2 flex flex-col">
+                <div>
+                    <input type="radio" name="jenis_kelamin" value="Laki-Laki">
+                    <span>Laki-Laki</span>
+                </div>
+                <div>
+                    <input type="radio" name="jenis_kelamin" value="Perempuan">
+                    <span>Perempuan</span> 
+                </div>
+            </div>
+            
+            <label class="font-semibold" for="eskul">Pilihan Eskul : </label>
+            <div class="mb-2">
+                <div>
+                    <input type="checkbox" name="eskul" value="Angklung">
+                    <span>Angklung</span>
+                </div>
+                <div>
+                    <input type="checkbox" name="eskul" value="Bahasa_Jepang">
+                    <span>Bahasa Jepang</span>
+                </div>
+                <div>
+                    <input type="checkbox" name="eskul" value="Basket">
+                    <span>Basket</span>
+                </div>
+                <div>
+                    <input type="checkbox" name="eskul" value="Bengkel_Matematika">
+                    <span>Bengkel Matematika</span>
+                </div>
+                <div>
+                    <input type="checkbox" name="eskul" value="English_Club">
+                    <span>English Club</span>
+                </div>
+                <div>
+                    <input type="checkbox" name="eskul" value="Futsal">
+                    <span>Futsal</span>
+                </div>
+                <div>
+                    <input type="checkbox" name="eskul" value="Mandarin_Club">
+                    <span>Mandarin Club</span>
+                </div>
+                <div>
+                    <input type="checkbox" name="eskul" value="Paskibra">
+                    <span>Paskibra</span>
+                </div>
+                <div>
+                    <input type="checkbox" name="eskul" value="PMR">
+                    <span>PMR</span>
+                </div>
+                <div>
+                    <input type="checkbox" name="eskul" value="Pramuka">
+                    <span>Pramuka</span>
+                </div>
+                <div>
+                    <input type="checkbox" name="eskul" value="Rohani_Islam">
+                    <span>Rohani Islam</span>
+                </div>
+                <div>
+                    <input type="checkbox" name="eskul" value="Seni_Media">
+                    <span>Seni Media</span>
+                </div>
+                <div>
+                    <input type="checkbox" name="eskul" value="Sepak_Bola">
+                    <span>Sepak Bola</span>
+                </div>
+                <div>
+                    <input type="checkbox" name="eskul" value="Syntax">
+                    <span>Syntax</span>
+                </div>
+                <div>
+                    <input type="checkbox" name="eskul" value="Taekwondo">
+                    <span>Taekwondo</span>
+                </div>
+                <div>
+                    <input type="checkbox" name="eskul" value="Tari">
+                    <span>Tari</span>
+                </div>
+                <div>
+                    <input type="checkbox" name="eskul" value="TelsKustik">
+                    <span>TelsKustik</span>
+                </div>
+                <div>
+                    <input type="checkbox" name="eskul" value="Tomcat">
+                    <span>Tomcat</span>
+                </div>
+                <div>
+                    <input type="checkbox" name="eskul" value="Voli">
+                    <span>Voli</span>
+                </div>
+                <div>
+                    <input type="checkbox" name="eskul" value="Tarung_Derajat">
+                    <span>Tarung Derajat</span>
+                </div>
+            </div>
+
+            <button class="p-3 bg-[#44c3e5] text-white rounded-lg mt-2" type="submit">Save</button>
+        </form>
+    </div>
+</body>
+</html>
