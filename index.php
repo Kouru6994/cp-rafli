@@ -1,6 +1,6 @@
 <?php
 	
-	include 'config.php'; // test12
+	include 'config.php'; // test123
 
 	if (isset($_POST['post_coment'])) {
     $name = $_POST['name'];
